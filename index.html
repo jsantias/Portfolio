@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>John Santias EPortfolio - Home</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="John Santias" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+</head>
+<body>
+
+
+
+<!-- particles.js container -->
+<div id="particles-js">
+  <!-- top box -->
+  <div class="title">
+    <div class="header">
+      <h1>John Bernard Rivera Santias</h1>
+      <h3>Undergraduate Student</h3>
+      <h3>Bachelor of Information Technology (Computer Science major)</h3>
+      <h3>Queensland University of Technology</h3>
+    </div>
+  </div>
+  <!-- navigation bar -->
+  <div class="navbar">
+    <a href="">Home</a>
+    <a href="">About Me</a>
+    <a href="">Education</a>
+    <a href="">Work Samples</a>
+    <a href="">Projects</a>
+  <div class="dropdown">
+    <button class="dropbtn">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="">Time Sheet</a>
+        <a href="">First Year</a>
+        <a href="">Second Year</a>
+        <a href="">Contact Me</a>
+    </div>
+  </div> 
+</div>
+</div>
+
+
+<!-- scripts -->
+<script src="../particles.js"></script>
+<script src="js/app.js"></script>
+
+ --><script>
+  var count_particles, stats, update;
+  stats = new Stats;
+  stats.setMode(0);
+  stats.domElement.style.position = 'absolute';
+  stats.domElement.style.left = '0px';
+  stats.domElement.style.top = '0px';
+  document.body.appendChild(stats.domElement);
+  count_particles = document.querySelector('.js-count-particles');
+  update = function() {
+    stats.begin();
+    stats.end();
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+</body>
+</html>
