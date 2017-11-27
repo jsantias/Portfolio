@@ -67,6 +67,13 @@ canvas{
 .header{
   font-family: sans-serif;
   text-align: center;
+  font-size: 35px;
+}
+
+.mytitle{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 12px;
 }
 
 /* Navbar container */

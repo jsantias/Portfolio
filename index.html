@@ -16,12 +16,14 @@
 <div id="particles-js">
   <!-- top box -->
   <div class="title">
-    <div class="header">
-      <h1>John Bernard Rivera Santias</h1>
-      <h3>Undergraduate Student</h3>
-      <h3>Bachelor of Information Technology (Computer Science major)</h3>
-      <h3>Queensland University of Technology</h3>
-    </div>
+    <h1 class="header">John Bernard Rivera Santias</h1>
+    <span>
+      <div class="mytitle">
+        <p>Undergraduate Student</p>
+        <p>Bachelor of Information Technology (Computer Science major)</p>
+        <p>Queensland University of Technology</p>
+      </div>
+    </span>
   </div>
   <!-- navigation bar -->
   <div class="navbar">
@@ -36,38 +38,17 @@
     </button>
     <div class="dropdown-content">
       <a href="">Time Sheet</a>
-        <a href="">First Year</a>
-        <a href="">Second Year</a>
-        <a href="">Contact Me</a>
+      <a href="">First Year</a>
+      <a href="">Second Year</a>
+      <a href="">Contact Me</a>
     </div>
   </div> 
 </div>
 </div>
 
-
 <!-- scripts -->
 <script src="../particles.js"></script>
 <script src="js/app.js"></script>
-
- --><script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script>
 
 </body>
 </html>
