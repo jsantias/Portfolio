@@ -13256,11 +13256,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\John Santias\\source\\repos\\ePortfolio\\ePortfolio\\ePortfolio.csproj",
+      "projectUniqueName": "C:\\Users\\John Santias\\ePortfolio\\ePortfolio\\ePortfolio.csproj",
       "projectName": "ePortfolio",
-      "projectPath": "C:\\Users\\John Santias\\source\\repos\\ePortfolio\\ePortfolio\\ePortfolio.csproj",
+      "projectPath": "C:\\Users\\John Santias\\ePortfolio\\ePortfolio\\ePortfolio.csproj",
       "packagesPath": "C:\\Users\\John Santias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\John Santias\\source\\repos\\ePortfolio\\ePortfolio\\obj\\",
+      "outputPath": "C:\\Users\\John Santias\\ePortfolio\\ePortfolio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
