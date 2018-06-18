@@ -1,19 +1,28 @@
 ﻿@page
 @model ContactModel
 @{
-    ViewData["Title"] = "Contact";
+    ViewData["Title"] = "Contact Me";
 }
 <h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
+
+<p>If there are any questions or comments please fill out the info listed and I will respond as soon as possible!</p>
+<p>Thanks!</p>
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    <strong>Phone Number:</strong> <a href="tel:+61402609514">+61 402-609-514</a><br />
+    <strong>Email:</strong> <a href="mailto:Jbssantias@hotmail.com">Jbssantias@hotmail.com</a><br />
+    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/john-bernard-rivera-santias-b6aa20133/">https://www.linkedin.com/in/john-bernard-rivera-santias-b6aa20133/</a><br />
 </address>
 
-<address>
-    <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<form action="#">
+    <br>
+    <input type="text" name="Name" value="Name*" style="width:80%">
+    <br />
+    <input type="text" name="Email" value="Email*" style="width:80%">
+    <br />
+    <input type="text" name="Subject" value="Subject" style="width:80%">
+    <br />
+    <input type="text" name="Message" value="Message" style="width:80%; height:200px">
+    <br><br>
+    <input type="submit" value="Submit" class="button1" style="width:80%">
+</form> 
