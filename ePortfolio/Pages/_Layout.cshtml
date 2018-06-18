@@ -32,8 +32,26 @@
                 <ul class="nav navbar-nav">
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/About">About Me</a></li>
-                    <li><a asp-page="/Education">Education</a></li>
-                    <li><a asp-page="/workExamples">Work Examples</a></li>
+                    <li class="nav-item dropdown">
+                        <a asp-page="/Education" class="nav-link dropdown-toggle" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                            Education
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Certificates & Awards</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="/workExamples" class="nav-link dropdown-toggle" id="navbarDropdown" aria-haspopup="true" aria-expanded="false">
+                            Work Examples
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">First Year</a>
+                            <br />
+                            <a class="dropdown-item" href="#">Second Year</a>
+                            <br />
+                            <a class="dropdown-item" href="#">Third Year</a>
+                        </div>
+                    </li>
                     <li><a asp-page="#">Projects</a></li>
                     <li><a asp-page="#">Time Sheets</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
