@@ -122,3 +122,15 @@ body {
     top: 11px;
     left: -6px;
 }
+
+.certLeft {
+    float: left;
+    width: 50%;
+    padding-left: 200px;
+}
+
+.certRight {
+    float: right;
+    width: 50%;
+    padding-left: 100px;
+}
