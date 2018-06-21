@@ -2,16 +2,15 @@
 @model workExamplesModel
 @{
     ViewData["Title"] = "Work Examples";
-    ViewData["Title1"] = "First Year";
-    ViewData["Title2"] = "Second Year";
-    ViewData["Title3"] = "Third Year";
+    ViewData["Title1"] = "First Year courses";
+    ViewData["Title2"] = "Second Year courses";
+    ViewData["Title3"] = "Third Year courses";
 }
 <h2 align="center"><u>@ViewData["Title"]</u></h2>
 <br />
-<div class="row">
+<div class="row" style="padding-left: 10%">
     <div class="col-md-4">
         <h3><u>@ViewData["Title1"]</u></h3>
-        <h5>Courses taken in first year:</h5>
         <ul>
             <li>Computer System and Networks</li>
             <li>Technology Fundamentals</li>
@@ -25,7 +24,6 @@
     </div>
     <div class="col-md-4">
         <h3><u>@ViewData["Title2"]</u></h3>
-        <h5>Courses taken in second year:</h5>
         <ul>
             <li>Designing for IT</li>
             <li>Building IT Systems</li>
@@ -38,7 +36,6 @@
     </div>
     <div class="col-md-4">
         <h3><u>@ViewData["Title3"]</u></h3>
-        <h5>Courses taken in third year:</h5>
         <ul>
             <li>Algorithms and Complexity</li>
             <li>Network and Systems Administration</li>
@@ -50,7 +47,7 @@
         </ul>
     </div>
 </div>
-<div class="row">
+<div class="row" style="padding-left: 10%">
     <div class="col-md-4">
         <a href="/FirstYearWork" class="btn btn-primary" role="button">View</a>
     </div>
@@ -58,6 +55,6 @@
         <a href="/SecondYearWork" class="btn btn-primary" role="button">View</a>
     </div>
     <div class="col-md-4">
-        <a href="#" class="btn btn-primary" role="button">View</a>
+        <a href="/ThirdYearWork" class="btn btn-primary" role="button">View</a>
     </div>
 </div>
