@@ -38,17 +38,6 @@ body {
     }
 }
 
-.container-aboutdescription {
-    float: left;
-    width: 50%;
-}
-
-.container-aboutpic {
-    float: right;
-    width: 50%;
-    padding-left: 50px;
-}
-
 .button1 {
     padding: 10px 20px;
     background-color: steelblue;
