@@ -2,6 +2,7 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     background-color: lightgrey;
+    background-image: url("/images/background.png");
 }
 
 /* Wrapping element */
@@ -9,6 +10,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #BDBDBD;
 }
 
 /* Carousel */
