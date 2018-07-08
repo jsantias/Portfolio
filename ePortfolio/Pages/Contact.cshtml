@@ -1,28 +1,22 @@
 ﻿@page
 @model ContactModel
 @{
-    ViewData["Title"] = "Contact Me";
+    ViewData["Title"] = "GET IN TOUCH";
 }
-<h2>@ViewData["Title"]</h2>
+<div class="container">
+    <h2 align="center">@ViewData["Title"]</h2>
+    <div class="row">
+        <div class="col-sm-8">
+            <p>Want to get in contact? Choose an option below. Will get back to you as soon as possible!</p>
+            <p>Thanks!</p>
 
-<p>If there are any questions or comments please fill out the info listed and I will respond as soon as possible!</p>
-<p>Thanks!</p>
+            <address>
+                <strong>Phone Number:</strong> <a href="tel:+61402609514">+61 402-609-514</a><br />
+                <strong>Email:</strong> <a href="mailto:Jbssantias@hotmail.com">Jbssantias@hotmail.com</a><br />
+                <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/john-bernard-rivera-santias-b6aa20133/">https://www.linkedin.com/in/john-bernard-rivera-santias-b6aa20133/</a><br />
+            </address>
+        </div>
+    </div>
 
-<address>
-    <strong>Phone Number:</strong> <a href="tel:+61402609514">+61 402-609-514</a><br />
-    <strong>Email:</strong> <a href="mailto:Jbssantias@hotmail.com">Jbssantias@hotmail.com</a><br />
-    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/john-bernard-rivera-santias-b6aa20133/">https://www.linkedin.com/in/john-bernard-rivera-santias-b6aa20133/</a><br />
-</address>
-
-<form action="#">
-    <br>
-    <input type="text" name="Name" value="Name*" style="width:80%">
-    <br />
-    <input type="text" name="Email" value="Email*" style="width:80%">
-    <br />
-    <input type="text" name="Subject" value="Subject" style="width:80%">
-    <br />
-    <input type="text" name="Message" value="Message" style="width:80%; height:200px">
-    <br><br>
-        <button class="btn btn-primary" target="_blank">Submit</button>
-</form> 
+    
+</div>
