@@ -59,7 +59,10 @@
             </div>
         </div>
     </nav>
-    <div class="container body-content">
+    <video autoplay muted loop id="myVideo" style="width: auto; height: 100%; position: fixed;">
+        <source src="~/images/backvid.mov">
+    </video>
+    <div class="container body-content" style="position: absolute; margin-left: 15%">
         @RenderBody()
         <hr />
         <footer>
@@ -70,7 +73,7 @@
                 <a href="https://www.instagram.com/asianjohnboi/" target="_blank"><img src="~/images/social_media/social-038_instagram.png" /></a>
                 <a href="https://www.facebook.com/John.Santias" target="_blank"><img src="~/images/social_media/social-006_facebook.png" /></a>
             </div>
-            
+
             <br />
         </footer>
     </div>
