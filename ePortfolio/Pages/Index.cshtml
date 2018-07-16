@@ -47,6 +47,9 @@
             <button class="btn btn-primary" onclick="rerun()">Re-Calculate GPA</button>
         </div>
         <div class="col-sm-6">
+            <div class="row" style="height: 30%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" align="center">
+                <h3 style="font-size:50px"><strong><u>Course Progress</u></strong></h3>
+            </div>
             <script src="~/js/progressbart.js"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <div class="bar_container">
@@ -68,77 +71,6 @@
             <div align="center">
                 <h3>Completed</h3>
             </div>
-        </div>
-    </div>
-    <hr />
-    <div class="row" style="height: 30%; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif" align="center">
-        <h3 style="font-size:50px"><strong><u>Course Progress</u></strong></h3>
-    </div>
-    <div class="row">
-        <script src="~/js/progressbart.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <div class="col-md-4">
-            <div class="bar_container">
-                <div id="main_container">
-                    <div id="pbar" class="progress-pie-chart" data-percent="0">
-                        <div class="ppc-progress">
-                            <div class="ppc-progress-fill" id="progress-fill"></div>
-                        </div>
-                        <div class="ppc-percents" id="ppc-percents">
-                            <div class="pcc-percents-wrapper">
-                                <span>%</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <progress style="display: none" id="progress_bar" value="0" max="75"></progress>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="bar_container">
-                <div id="main_container">
-                    <div id="pbar2" class="progress-pie-chart" data-percent="0">
-                        <div class="ppc-progress">
-                            <div class="ppc-progress-fill" id="progress-fill2"></div>
-                        </div>
-                        <div class="ppc-percents" id="ppc-percents2">
-                            <div class="pcc-percents-wrapper">
-                                <span>%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <progress style="display: none" id="progress_bar2" value="0" max="16"></progress>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="bar_container">
-                <div id="main_container">
-                    <div id="pbar3" class="progress-pie-chart" data-percent="0">
-                        <div class="ppc-progress">
-                            <div class="ppc-progress-fill" id="progress-fill3"></div>
-                        </div>
-                        <div class="ppc-percents" id="ppc-percents3">
-                            <div class="pcc-percents-wrapper">
-                                <span>%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <progress style="display: none" id="progress_bar3" value="0" max="8.33"></progress>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row" align="center">
-        <div class="col-md-4">
-            <h3>Completed</h3>
-        </div>
-        <div class="col-md-4">
-            <h3>Currently Enroled in</h3>
-        </div>
-        <div class="col-md-4">
-            <h3>Remaining</h3>
         </div>
     </div>
     <br />
