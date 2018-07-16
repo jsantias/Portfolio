@@ -47,15 +47,25 @@
             <button class="btn btn-primary" onclick="rerun()">Re-Calculate GPA</button>
         </div>
         <div class="col-sm-6">
-            <h3 style="font-size:50px"><strong><u>Grades</u></strong></h3>
-            <div align="left" style="font-size:25px; margin-left: 35%">
-                <p>High Distinction: 3</p>
-                <p>Distinction: 5</p>
-                <p>Credit: 2</p>
-                <p>Pass: 0</p>
-                <p>Marginal Fail: 0</p>
-                <p>Fail: 0</p>
-                <p>Low Fail: 0</p>
+            <script src="~/js/progressbart.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <div class="col-md-4">
+                <div class="bar_container">
+                    <div id="main_container">
+                        <div id="pbar" class="progress-pie-chart" data-percent="0">
+                            <div class="ppc-progress">
+                                <div class="ppc-progress-fill" id="progress-fill"></div>
+                            </div>
+                            <div class="ppc-percents" id="ppc-percents">
+                                <div class="pcc-percents-wrapper">
+                                    <span>%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <progress style="display: none" id="progress_bar" value="0" max="75"></progress>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
