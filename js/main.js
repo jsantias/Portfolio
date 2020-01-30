@@ -343,14 +343,21 @@
         
             /* submit via ajax */
             submitHandler: function(form) {
+
+                var body = {
+                    "contactName": document.getElementById("contactName").value,
+                    "contactEmail": document.getElementById("contactEmail").value,
+                    "contactSubject": document.getElementById("contactSubject").value,
+                    "contactMessage": document.getElementById("contactMessage").value
+                }
     
                 var sLoader = $('.submit-loader');
     
                 $.ajax({
     
                     type: "POST",
-                    url: "inc/sendEmail.php",
-                    data: $(form).serialize(),
+                    url: " https://ligsw7ix91.execute-api.ap-southeast-2.amazonaws.com/production",
+                    data: JSON.stringify(body),
                     beforeSend: function() { 
     
                         sLoader.slideDown("slow");
