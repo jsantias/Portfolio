@@ -364,9 +364,11 @@
     
                     },
                     success: function(msg) {
+
+                        // console.log(msg.statusCode)
     
                         // Message was sent
-                        if (msg == 'OK') {
+                        if (msg.statusCode == 200) {
                             sLoader.slideUp("slow"); 
                             $('.message-warning').fadeOut();
                             $('#contactForm').fadeOut();
