@@ -2239,16 +2239,17 @@
  }
  
  .timeline__bullet {
-     background: #0D0A0B;
-     height: 1.5rem;
-     width: 1.5rem;
-     border-radius: 50%;
-     margin-left: -0.75rem;
-     box-shadow: 0 0 0 9px #E9E9E9;
-     position: absolute;
-     left: 2rem;
-     top: .3rem;
- }
+    background: #DBDADA;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-left: -0.75rem;
+    box-shadow: 0 0 0 9px #E9E9E9;
+    position: absolute;
+    left: -0.1rem;
+    top: .3rem;
+    overflow: hidden;
+}
  
  .timeline__header .timeline__timeframe {
      font-size: 1.4rem;
